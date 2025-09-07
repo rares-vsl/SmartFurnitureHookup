@@ -1,5 +1,5 @@
 # Stage 1: Build with Gradle
-FROM gradle:8.13.0-jdk-alpine AS build
+FROM gradle:8.14.3-jdk-alpine AS build
 WORKDIR /usr/src/app
 
 RUN apk add --no-cache nodejs npm
