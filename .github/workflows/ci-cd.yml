@@ -9,9 +9,6 @@ on:
 
 env:
   NODE_DEFAULT_VERSION: "22.19.0"
-  IS_MAIN: ${{ github.ref == 'refs/heads/main' }}
-  IS_PR_TO_MAIN: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main' }}
-
 
 permissions:
   contents: read
@@ -108,7 +105,7 @@ jobs:
           retention-days: 30
 
   release:
-    if: ${{ IS_MAIN || IS_PR_TO_MAIN }}
+    if: ${{ github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main') }}
     needs: [ setup, quality-checks ]
     runs-on: ubuntu-latest
     permissions:
@@ -136,7 +133,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   upload-docs:
-    if: ${{ IS_MAIN || IS_PR_TO_MAIN }}
+    if: ${{ github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main') }}
     needs: [ release ]
     runs-on: ubuntu-latest
     permissions:
@@ -167,7 +164,7 @@ jobs:
 
   docker:
     name: Build & Push Docker
-    if: ${{ IS_MAIN }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     needs: [ setup, upload-docs ]
     runs-on: ubuntu-latest
     permissions:
