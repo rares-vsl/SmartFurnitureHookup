@@ -11,7 +11,7 @@ on:
     types: [ opened, synchronize, reopened ]
 
 env:
-  NODE_DEFAULT_VERSION: "20.11.1"
+  NODE_DEFAULT_VERSION: "22.19.0"
 
 jobs:
   setup:
