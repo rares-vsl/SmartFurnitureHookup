@@ -1,3 +1,16 @@
+## [1.2.0](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.1.0...v1.2.0) (2025-09-22)
+
+### Features
+
+* add application layer ([390b8f8](https://github.com/rares-vsl/SmartFurnitureHookup/commit/390b8f8023d19df73391e52ab0d96986aa05db69))
+* add application layer ([578ae6b](https://github.com/rares-vsl/SmartFurnitureHookup/commit/578ae6b4773a455bd3205d38ca506f8398c189bc))
+* add domain ([983b4c7](https://github.com/rares-vsl/SmartFurnitureHookup/commit/983b4c7004094823d29ed3fee87b94fbb80838c7))
+* add interface layer ([6067a11](https://github.com/rares-vsl/SmartFurnitureHookup/commit/6067a11cffef9f5a55c3699037fff29dd6642792))
+* add storage layer ([a805e2a](https://github.com/rares-vsl/SmartFurnitureHookup/commit/a805e2a60c05727fbd00ca51f328e32faeb0001e))
+* configure app main ([7c3519b](https://github.com/rares-vsl/SmartFurnitureHookup/commit/7c3519bfab37e218121c6e9de3564d3c6f23c94b))
+* configure app main ([194a240](https://github.com/rares-vsl/SmartFurnitureHookup/commit/194a240096ae4a95ce93ef4d8d71fbbbe3dc5181))
+* new log ([cb65934](https://github.com/rares-vsl/SmartFurnitureHookup/commit/cb659349203f97ec40771cf5d59a34813d779358))
+
 ## [1.1.0](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.0.0...v1.1.0) (2025-09-22)
 
 ### Features
