@@ -105,7 +105,7 @@ jobs:
           retention-days: 30
 
   release:
-    if: ${{ github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main') }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     needs: [ setup, quality-checks ]
     runs-on: ubuntu-latest
     permissions:
@@ -130,10 +130,10 @@ jobs:
       - name: Run Semantic Release
         run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.BUBU }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   upload-docs:
-    if: ${{ github.ref == 'refs/heads/main' || (github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main') }}
+    if: ${{ github.ref == 'refs/heads/main' }}
     needs: [ release ]
     runs-on: ubuntu-latest
     permissions:
