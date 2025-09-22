@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.3.0...v1.4.0) (2025-09-22)
+
+### Features
+
+* new log bbb ([239eb09](https://github.com/rares-vsl/SmartFurnitureHookup/commit/239eb090587e28ee6b1bbae2dbb37c09093cfa6a))
+
 ## [1.3.0](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.2.0...v1.3.0) (2025-09-22)
 
 ### Features
