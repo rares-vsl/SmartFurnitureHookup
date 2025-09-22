@@ -16,6 +16,7 @@ app.use(express.json());
 app.use(apiRouter);
 
 app.listen(PORT, async () => {
+  console.log("smart-furniture-hookups service");
   console.log(`Server running on port ${PORT}`);
 
   console.log(`Server running on port ${PORT}`);
