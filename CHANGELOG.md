@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.4.0...v1.4.1) (2025-09-22)
+
+### Bug Fixes
+
+* correct format ([88c1c53](https://github.com/rares-vsl/SmartFurnitureHookup/commit/88c1c53b9032941fab9b9d54ebe55259d1424b8e))
+
 ## [1.4.0](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.3.0...v1.4.0) (2025-09-22)
 
 ### Features
