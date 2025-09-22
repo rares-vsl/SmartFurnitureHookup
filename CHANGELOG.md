@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/rares-vsl/SmartFurnitureHookup/compare/v1.0.0...v1.1.0) (2025-09-22)
+
+### Features
+
+* configure app main ([19de9c4](https://github.com/rares-vsl/SmartFurnitureHookup/commit/19de9c4e6fed60ee194d39e4b983a46a4d72d29b))
+* new log ([a72bac3](https://github.com/rares-vsl/SmartFurnitureHookup/commit/a72bac3e2b29aeae73b2c76fdacc468535af2ef4))
+
 ## 1.0.0 (2025-09-22)
 
 ### Features
