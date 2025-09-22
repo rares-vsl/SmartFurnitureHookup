@@ -1,3 +1,3 @@
 export const tmp = (value: string) => {
-  console.log(value);
+  console.log(value + "-");
 };
